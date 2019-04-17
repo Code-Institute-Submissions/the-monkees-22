@@ -32,6 +32,3 @@ image monkees-almanac is from https://www.monkeeslivealmanac.com
 image monkees-1967 is from https://www.billboard.com
 image monkees-BW is from washingtonpost.com
 gallery example from https://www.w3schools.com/
-
-
-This is a test of github
