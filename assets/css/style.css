@@ -13,6 +13,20 @@ body {
 
 }
 
+.header-logo {
+    width: 6em;
+    height: 3em;
+}
+
+.footer-logo { 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+    max-width: 250px;
+    height: auto;
+    
+}
+
 img {
     min-height: 55px;
     padding: 0 15px 5px;
@@ -103,7 +117,7 @@ hr {
     width: 60%;
     text-align: center;
     margin: 0 auto;
-    text-align: center;
+    
     font-weight: bold;
     color: #efdb00;
 
@@ -142,11 +156,12 @@ div.gallery:hover {
 }
 
 div.gallery img {
-    width: 100%;
-    height: auto;
+    width: 250px;
+    height: 180px;
+    align-items:center;
 }
 
-div.desc {
+.desc {
     padding: 15px;
     text-align: center;
 }
@@ -161,6 +176,14 @@ div.desc {
     width: 24.99999%;
 }
 
+@media (max-width:768px) { 
+.footer-logo { 
+    max-width: 70%; 
+    margin: 0px auto; 
+    text-align:center; 
+    
+             }
+}
 @media only screen and (max-width: 700px) {
     .responsive {
         width: 49.99999%;
@@ -188,13 +211,10 @@ footer {
     width: 100%;
     background-color: #23415c;
     padding: 5% 5% 3% 5%;
-    color: #fff;
-}
-
-footer h3 {
     font-family: Aldrich, sans-serif;
     color: #efdb00;
 }
+
 
 footer p {
     color: #d5d5d5;
@@ -219,15 +239,89 @@ footer p {
 }
 
 .icon {
-    max-width: 180px;
+    max-width: 75%;
 
 }
 
+ @media (min-width: 300px){
+     
+     .icon {
+         align-items:center;
+         max-width:27%;
+     }
+     
+     .fa {
+    padding: 2px;
+    font-size: 15px;
+    
+}
 
+.gallery img {
+    width: 30%; 
+    height: 30%; 
+    object-fit: contain; 
+}
+ }
+ 
+ @media (max-width:576px) {
+
+    .landing-text {
+        font-size: 1em;
+        font-weight: 300;
+    }
+
+    .hits {
+        font-size: 1em;
+        font-weight: 200;
+        text-align: center;
+    }
+
+    #submit-msg {
+    font-size: 26px;
+    
+}
+    .icon {
+        max-width: 30%;
+        margin-left: 10px;
+
+    }
+
+    footer h3 {
+        font-size: .75em;
+        text-align: center;
+    }
+
+    .company-name {
+        font-size: 0.6em;
+
+    }
+
+    .fa {
+        text-align: center;
+        font-size: 11px;
+        padding: 0;
+        margin-left: 30px;
+
+    }
+
+    footer p {
+        font-size: 9px;
+        text-align: center;
+    }
+
+
+}
+
+/*@media (min-width: 768px) {*/
+
+/*.col-md-4 {*/
+/*    min-width: 23%;*/
+/*}*/
+/*}*/
 
 @media (max-width:768px) {
 
-    .landing-text h1 {
+    .landing-text {
         font-size: 1.2em;
         font-weight: 400;
     }
@@ -239,12 +333,13 @@ footer p {
     }
 
     .icon {
-        max-width: 120px;
-        margin-left: 110px;
+        max-width: 25%;
+        margin-left: 30%;
+        text-align:center;
 
     }
 
-    footer h3 {
+    footer  {
         font-size: 12px;
         text-align: center;
     }
@@ -273,52 +368,7 @@ footer p {
 }
 
 
-
-@media (max-width:576px) {
-
-    .landing-text h1 {
-        font-size: 1 em;
-        font-weight: 300;
-    }
-
-    .hits {
-        font-size: 1em;
-        font-weight: 200;
-        text-align: center;
-    }
-
-    #submit-msg {
-    font-size: 26px;
-    
 }
-    .icon {
-        max-width: 120px;
-        margin-left: 10px;
 
-    }
-
-    footer h3 {
-        font-size: 12px;
-        text-align: center;
-    }
-
-    .company-name {
-        font-size: 0.6em;
-
-    }
-
-    .fa {
-        text-align: center;
-        font-size: 11px;
-        padding: 0;
-        margin-left: 30px;
-
-    }
-
-    footer p {
-        font-size: 9px;
-        text-align: center;
-    }
-}
 
 /*footer section end*/
