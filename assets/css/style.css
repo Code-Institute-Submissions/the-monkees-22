@@ -215,6 +215,20 @@ hr {
   margin: 2px 0px;
   padding: 10px;
 }
+
+@media (max-width:640px) {
+.figure img {
+padding-left:1px;
+text-align: center;
+            }
+.figure-caption {
+ padding-left:1px;
+ text-align: center;
+            }
+}
+
+
+
 @media (max-width:768px) { 
 
 .figure-img {
