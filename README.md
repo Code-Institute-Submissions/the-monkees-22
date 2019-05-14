@@ -32,3 +32,8 @@ image monkees-almanac is from https://www.monkeeslivealmanac.com
 image monkees-1967 is from https://www.billboard.com
 image monkees-BW is from washingtonpost.com
 gallery example from https://www.w3schools.com/
+images in slider and index page:
+https://edition.cnn.com/2012/02/29/showbiz/obit-davy-jones/index.html
+https://elpais.com/cultura/2016/08/25/television/1472125039_465032.html
+https://gaffa.no/anmeldelse/the-monkees-good-times/
+https://gaffa.no/musikk/nyheter/201101/the-monkees-bassisten-er-dod/
