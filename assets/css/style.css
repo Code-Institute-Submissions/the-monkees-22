@@ -13,6 +13,10 @@ body {
 
 }
 
+.navbar-nav>li {
+    margin-left: 30px;
+}
+
 .header-logo {
     width: 6em;
     height: 3em;
@@ -24,7 +28,6 @@ body {
     margin-left: auto;
     max-width: 250px;
     height: auto;
-    
 }
 
 img {
@@ -216,6 +219,29 @@ hr {
   padding: 10px;
 }
 
+
+.contact-page {
+
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+
+}
+
+
+
+.contact-page>li {
+  display: inline;
+
+}
+@media (min-width:768px) {
+.contact-page {
+font-size:12px;
+            }
+}
+
+
 @media (max-width:640px) {
 .figure img {
 padding-left:1px;
@@ -284,6 +310,7 @@ footer p {
     padding: 12px;
     font-size: 25px;
     color: #efdb00;
+    float: left;
 }
 
 .fa:hover {
@@ -346,7 +373,6 @@ footer p {
         font-size: 11px;
         padding: 0;
         margin-left: 30px;
-
     }
 
     footer p {
@@ -391,7 +417,7 @@ footer p {
         text-align: center;
         font-size: 18px;
         padding: 8px;
-        margin-left: 30px;
+        margin: 10px 10px;
 
     }
 
@@ -404,6 +430,5 @@ footer p {
     font-size: 36px;
     }
         }
-
 
 /*footer section end*/
