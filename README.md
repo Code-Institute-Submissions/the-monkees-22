@@ -1,8 +1,8 @@
-               	 ---------------------------------------------------------------------	
+  -------------------------------------------------------------------	
 				 |                                                                   |
-				 |	               THE MONKEES WEBSITE PROJECT                       |
-                 |                       by Stefan Sarbu                             |
-    			 --------------------------------------------------------------------- 
+				 |	           THE MONKEES WEBSITE PROJECT                       |
+                                 |                       by Stefan Sarbu                             |
+    				  ------------------------------------------------------------------- 
 
 
 
@@ -111,7 +111,7 @@ Font Awesome has been used to add icons to the website.
 
 	Jasmine
 
-    Jasmine is used as a TDD (Test-driven development) tool to automatically test JavaScript and JQuery code.
+Jasmine is used as a TDD (Test-driven development) tool to automatically test JavaScript and JQuery code.
 
 	Jasmine-JQuery
 
@@ -158,7 +158,7 @@ The process of cloning will now be completed. For further information on cloning
 
 Contents
 
-    All Content has been thought of and written by the Developer.
+All Content has been thought of and written by the Developer.
 
 	Media
 
