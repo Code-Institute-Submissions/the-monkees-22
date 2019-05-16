@@ -1,8 +1,8 @@
-  -------------------------------------------------------------------	
-				 |                                                                   |
-				 |	           THE MONKEES WEBSITE PROJECT                       |
-                                 |                       by Stefan Sarbu                             |
-    				  ------------------------------------------------------------------- 
+  	
+                                                              
+	                            THE MONKEES WEBSITE PROJECT                       
+                                      by Stefan Sarbu                             
+    				 
 
 
 
