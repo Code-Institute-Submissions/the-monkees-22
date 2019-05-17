@@ -1,7 +1,7 @@
 # THE MONKEES WEBSITE PROJECT
 ## by Stefan Sarbu
     	
-#### Deployment link: https://github.com/iiostefanos/the-monkees
+#### Deployment link: https://iiostefanos.github.io/the-monkees/
 
 ### UX
 	
